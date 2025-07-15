@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- label -->
+     <h1><b>Topup Game Terbaik</b></h1>
+     <h2>Login Untuk topup</h2>
+     <form>
+        <div>
+            <label for="Username">Username</label><br>
+            <input type="Username" name="user" id="Username"> 
+        </div>
+        <div>
+            <label for="password">password</label><br>
+            <input type="password" name="pwd" id="password">
+        </div>
+        <hr>
+        <div>
+            <input type="text" name="Username" placeholder="Username"><br>
+            <input type="text" name="password" placeholder="password">
+        </div>
+        <br>
+        <hr>
+        <label>Pilihan Topup</label><br>
+        <input type="radio" name="Topup" id="Diamond"><label for="d">Diamond</label><br>
+        <input type="radio" name="Topup" id="UC"><label for="b">UC</label><br>
+        <input type="radio" name="Topup" id="Coin"><label for="c">Coin</label>
+        <br>
+        <label>Jumlah Diamond yang di top up</label><br>
+        <input type="number" name="number" id="num">
+        <br>
+        <hr>
+        <label>Metode Pembayaran</label><br>
+        <input type="checkbox" name="lang" id="Bank"><label for="Bank">Bank</label>
+        <input type="checkbox" name="lang" id="Dana"><label for="Dana">Dana</label><br>
+        <input type="checkbox" name="lang" id="Gopay"><label for="Gopay">Gopay</label>
+        <input type="checkbox" name="lang" id="Qris"><label for="Qris">Qris</label><br>
+        <br>
+        <hr>
+        <label for="lang-drop">Pilih Game Yang Mau di Topup</label><br>
+        <select name="lang-drop" id="lang-drop">
+            <option value="" disabled selected>--Pilihan--</option>
+            <option value="Mobile Legend">Mobile Legend</option>
+            <option value="Free Fire">Free Fire</option>
+            <option value="PUBG">PUBG</option>
+            <option value="Valorant">Valorant</option>  
+        </select>
+        <br>
+        <label>Pesan dan Saran</label><br>
+        <textarea name="Pesan" id="Pesan" rows="10" cols="50"></textarea><br>
+        <div>
+            <button type="submit">submit</button>
+        </div>
+     </form>
+</body>
+</html>
